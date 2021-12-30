@@ -1,9 +1,9 @@
 
 
-/* -------------------fonts--------------------  */
+/* ----------------------------------------------------fonts----------------------------------------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
 
-/* ---------------------common styles or utilities --------------------- */
+/* -------------------------------------------------common styles or utilities --------------------------------------------------- */
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
@@ -28,7 +28,7 @@ header img{
 }
 main{
     display: flex;
-    /*--------------------- justify-content: center; column borabor eta kaz korbena------------------------------------ */
+    /*------------------------ justify-content: center; column borabor eta kaz korbena--------------------------------------- */
     flex-direction: column;
     align-items: center;
 }
@@ -41,7 +41,7 @@ main{
    margin-top: 21px;
 }
 
-/* ------------------top players style------------------  */
+/* --------------------------------------------top players style-----------------------------------------------  */
 .top-players{
    margin-bottom: 30px;
 }
@@ -53,7 +53,7 @@ main{
 
 .players{
     display: grid;
-    /*-------- grid-template-columns:1fr 1fr 1fr --------*/
+    /*------------------------------------------- grid-template-columns:1fr 1fr 1fr -------------------------------------------*/
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 29px;
 
@@ -75,7 +75,7 @@ hr{
     margin-bottom: 27px;
 
 }
-/* ----------------top blog styles---------------- */
+/* ---------------------------------------------------top blog styles------------------------------------------------ */
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -102,9 +102,7 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
-/*---------------
- courses style
-  --------------- */
+/*--------------------------------------courses style--------------------------------------------------- */
   .courses{
       display: flex;
       justify-content: space-between;
@@ -117,7 +115,7 @@ hr{
 }
 .course .course-banner img{ 
 
-     /* duita clss er majhkhane ekta space dile prothom class er vhitor second clss ta ache dhore nibe */
+     /*---------------------- duita clss er majhkhane ekta space dile prothom class er vhitor second clss ta ache dhore nibe ---------------------------------*/
 
     width: 224px;
     height: 104px;
@@ -139,7 +137,7 @@ hr{
 }
 .fa-star.filled{ 
 
-    /* r duita class er majhe space na dile  ekoi element er vhitor duita class ache erokomgulake dhorbe */
+    /*---------------------------- r duita class er majhe space na dile  ekoi element er vhitor duita class ache erokomgulake dhorbe -----------------------------------*/
     
      color: #FFC014;
 }
@@ -158,9 +156,7 @@ span{
    
 }
 
-/*------------------------
-     Mobile devices 
-     ----------------------*/
+/*-----------------------------------------------------Mobile devices------------------------------------------------------------------------*/
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
@@ -180,9 +176,7 @@ span{
    
 
 }
-/* ---------------------
-    tablet devices
------------------------ */
+/* ----------------------------------------tablet devices-------------------------------------------------- */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     .container{
         width: 100%;
